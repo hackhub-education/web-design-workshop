@@ -18,6 +18,10 @@ nav {
   padding: .5rem;
 }
 
+nav ul {
+  padding: 0
+}
+
 nav ul li {
   display: inline-block;
   vertical-align: middle;
@@ -29,7 +33,7 @@ nav ul li img {
 }
 
 nav ul li a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
@@ -51,6 +55,11 @@ section h1 {
 section p {
   max-width: 800px;
   display: inline-block;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
 }
 
 #html {
